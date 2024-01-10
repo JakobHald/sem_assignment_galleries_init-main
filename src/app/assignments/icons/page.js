@@ -6,7 +6,9 @@ export default async function Page() {
     return (
         <main className={styles.page}>
             Icons
-            <DevIcons></DevIcons>
+            <DevIcons ></DevIcons>
+            <DevIcons ></DevIcons>
+            <DevIcons ></DevIcons>
         </main>
     )
 }

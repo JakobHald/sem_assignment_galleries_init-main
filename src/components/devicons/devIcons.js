@@ -5,7 +5,7 @@ import { useState } from "react";
 import DevActionbar from "../actionbar/devActionBar";
 
 
-const DevIcons = () => {
+const DevIcons = ({}) => {
 
     const [size, setSize] = useState(150);
 
