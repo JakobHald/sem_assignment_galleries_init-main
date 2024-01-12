@@ -13,6 +13,7 @@ const DevAssignmentsNavigation = () => {
                 <DevAssignmentsNavBtn link={'/assignments/data'} title={'Data'}></DevAssignmentsNavBtn>
                 <DevAssignmentsNavBtn link={'/assignments/data/authors'} title={'Authors'}></DevAssignmentsNavBtn>
                 <DevAssignmentsNavBtn link={'/assignments/data/images'} title={'Images'}></DevAssignmentsNavBtn>
+                <DevAssignmentsNavBtn link={'/assignments/data/portfolios'} title={'Portfolios'}></DevAssignmentsNavBtn>
             </div>
         </div>
     )
