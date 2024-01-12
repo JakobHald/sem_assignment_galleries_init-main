@@ -10,6 +10,9 @@ const DevAssignmentsNavigation = () => {
             <div className={styles.links}>
                 <DevAssignmentsNavBtn link={'/assignments'} title={'Assignments'}></DevAssignmentsNavBtn>
                 <DevAssignmentsNavBtn link={'/assignments/icons'} title={'Icons'}></DevAssignmentsNavBtn>
+                <DevAssignmentsNavBtn link={'/assignments/data'} title={'Data'}></DevAssignmentsNavBtn>
+                <DevAssignmentsNavBtn link={'/assignments/data/authors'} title={'Authors'}></DevAssignmentsNavBtn>
+                <DevAssignmentsNavBtn link={'/assignments/data/images'} title={'Images'}></DevAssignmentsNavBtn>
             </div>
         </div>
     )
